@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonte Lee</title>
+    <link rel="icon" href="assets/jonteicon.png" type="">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="jontelee.css">
+
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Typewriter CSS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Animate CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+
+
+</head>
+<body class="">
+    <!-- Nav Bar -->
+    <section class="">
+        <div class="navbar darkforest md:p-4 md:px-8 md:pr-10 fixed top-0 z-40  text-amber-50" id="navbar">
+            <div class="flex-1">
+                <a class="btn btn-ghost text-2xl sm:text-4xl " href="#start">Jonte.</a>
+            </div>
+            <div class="flex-none invisible sm:visible w-0 sm:w-fit">
+                <a href="#about" class="btn btn-ghost font-light hover:font-semibold text-xs sm:text-lg">about</a>
+            </div>
+            <div class="flex-none invisible sm:visible w-0 sm:w-fit">
+                <a href="#experience" class="btn btn-ghost text-xs sm:text-lg font-light	hover:font-semibold">experience</a>
+            </div>
+            <div class="flex-none invisible sm:visible w-0 sm:w-fit">
+                <a class="btn btn-ghost text-xs sm:text-lg font-light	hover:font-semibold" href="#projects">projects</a>
+            </div>
+            <div class="flex-none invisible sm:visible w-0 sm:w-fit">
+                <a class="btn btn-ghost text-xs sm:text-lg font-light border-amber-50 rounded-full hover:font-semibold" href="#contacts">let's chat!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. About Section -->
+    <section class="about_section darkforest " id="start">
+        <!-- Segment 1: Typewriter -->
+        <div class="h-screen grid content-center p-6 md:p-20 lg:p-40 xl:p-48 text-amber-50 relative overflow-hidden w-full">
+            <!-- Image positioned absolutely -->
+            <!-- <img src="./assets/innovation.png" class="absolute top-10 right-32 -rotate-45 deco" > -->
+            <!-- <img src="./assets/ketnipz.gif" class="absolute top-48 right-96 h-52  deco" > -->
+
+            <!-- Element to contain animated typing -->
+            <div class="flex mb-10">
+                <div class="">
+                    <h1 class="bigasstext font-bold"><span class="autotype"></span></h1>
+                    <span class="text-3xl sm:text-5xl font-normal">My name is Jonte.</span>
+                </div>
+                <div class="">
+                    <!-- Your other elements here -->
+                </div>
+            </div>
+
+
+
+            <!-- Setup and start animation! --> 
+            <script>
+                var typed = new Typed('.autotype', {
+                strings: ['Hello !', 'Bonjour !','你好！','Salve !', '안녕 !'],
+                typeSpeed: 120,
+                backSpeed: 100,
+                loop: true
+                });
+            </script>
+            <hr>
+            <span class="mt-10 text-lg sm:text-2xl sm:w-3/5">
+                I aspire to solve real-world problems through innovation and data-driven design.
+            </span>
+
+        </div>
+        <!-- Segment 2: About Me -->
+        <div class="text-center mt-52 " id="about">
+            <h1 class="text-3xl sm:text-5xl font-bold text-amber-50">A B O U T  &nbsp&nbsp M E</h1>
+        </div>
+        <div class="md:flex sm:flex-row justify-between p-6 md:p-10 lg:p-20 text-amber-50 fadein invisible" style="align-items: flex-start;">
+            <div class="w-full md:w-1/2 lg:w-1/2 flex-none">
+                <img src="./assets/my_image.png" alt="" class="myimage w-full">
+            </div>
+            <div class="sm:sticky sm:top-48 lg:w-3/6 flex justify-center">
+                <div class="p-6 md:px-4 lg:p-0 lg:w-3/5">
+                    <!-- <div class="md:text-3xl lg:text-5xl font-semibold invisible md:visible h-0 sm:h-fit lg:mb-8">Who am I ?</div> -->
+                    <br>
+                    <span class="text-sm md:text-xs lg:text-xl font-normal leading-loose ">
+                        I am a penultimate undergraduate at Singapore Management University, pursuing Information Systems (Business Analytics) and Finance. I have a strong passion for visual and information design, and I excel at using tools such as Figma, Canva, PowerPoint, and Tableau. My goal is to create compelling visuals that effectively communicate insights and ideas, blending creativity with analytical precision.
+                        <br><br>
+                        I am driven by my passion towards technology, innovation, a hunger for continuous learning, and above all, my 
+                        <span class="italic">Yakun Kopi Bing 大杯 </span>
+                        (Large Iced Nanyang-style Coffee).
+                        
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="h-24"></div>
+    </section>
+
+    <!-- 2. Experience Section -->
+    <section class="bg-amber-50  experience_section darkforesttext overflow-x-hidden " id="experience">
+        <div class="text-center pt-40">
+            <h1 class="text-3xl sm:text-5xl font-bold darkforesttext">E X P E R I E N C E</h1>
+        </div>
+        <!-- border border-red-500 -->
+        <div class="px-10 md:px-48  h-4/6 ">
+            <div class="flex h-36 experience1 invisible">
+                <div class="w-2 h-full overflow-visible rounded-full ">
+                    <div class="h-1/2 "></div>
+                    <div class="h-1/2 flex items-end justify-center overflow-visible">
+                        <div class="w-8 h-8 darkforest rounded-full flex-none"></div>
+                    </div>
+                </div>
+                <div class="mt-20 w-fit h-32 ml-20 ">
+                    <h1 class="text-xl sm:text-2xl font-bold">Nium</h1>
+                    <span class="font-semibold md:text-lg">Product |</span>
+                    <span class="md:text-lg font-light">August 2024 - Present</span>
+                    <br>
+                    <div class="text-xs sm:text-base experience">  
+                        Developing amazing products for Instarem and Amaze.
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth experience [Start] -->
+            <div class="flex h-36">
+                <div class="w-1 h-full  overflow-visible rounded-full experience5_bar  invisible ">
+                    <div class="h-1/2 barcolor lowerop"></div>
+                    <div class="h-1/2 flex items-end justify-center overflow-visible	barcolor">
+                        <div class="w-8 h-8 darkforest rounded-full flex-none"></div>
+                    </div>
+                </div>
+                <div class="mt-20 w-fit h-32 ml-20 experience5_text invisible">
+                    <h1 class="text-xl sm:text-2xl font-bold">DayDayUp</h1>
+                    <span class="font-semibold md:text-lg">Innovation Programme Consultant, Beijing |</span>
+                    <span class="md:text-lg font-light">May 2024 - August 2024</span>
+                    <br>
+                    <span class="text-xs sm:text-base experience" >
+                        I bridged 7 Singapore deep-tech startups to China's dynamic markets, identifying key partners & strategies for successful market penetration.
+                    </span>
+                </div>
+            </div>
+            <!-- Fifth experience [End] -->
+            <!-- Second experience [Start] -->
+            <div class="flex h-36">
+                <div class="w-1 h-full  overflow-visible rounded-full experience2_bar  invisible ">
+                    <div class="h-1/2 barcolor lowerop"></div>
+                    <div class="h-1/2 flex items-end justify-center overflow-visible	barcolor">
+                        <div class="w-8 h-8 darkforest rounded-full flex-none"></div>
+                    </div>
+                </div>
+                <div class="mt-20 w-fit h-32 ml-20 experience2_text invisible">
+                    <h1 class="text-xl sm:text-2xl font-bold">SMU Product Management Club</h1>
+                    <span class="font-semibold md:text-lg">Member |</span>
+                    <span class="md:text-lg font-light">Dec 2023 - April 2024</span>
+                    <br>
+                    <span class="text-xs sm:text-base experience" >I designed a product and its product strategy for GrabFood based on identified pain points in mobile food ordering and market research to determine market sizing, position and strategy.</span>
+                </div>
+            </div>
+            <!-- Second experience [End] -->
+            <!-- Third experience [Start] -->
+            <div class="flex h-36">
+                <div class="w-1 h-full  overflow-visible rounded-full experience3_bar invisible ">
+                    <div class="h-1/2 barcolor lowerop"></div>
+                    <div class="h-1/2 flex items-end justify-center overflow-visible	barcolor">
+                        <div class="w-8 h-8 darkforest rounded-full flex-none"></div>
+                    </div>
+                </div>
+                <div class="mt-20 w-fit h-32 ml-20 experience3_text invisible">
+                    <h1 class="text-xl sm:text-2xl font-bold">Asia Private Equity Club SMU</h1>
+                    <span class="font-semibold md:text-lg">Analyst |</span>
+                    <span class="md:text-lg font-light">Sep 2022 - May 2023</span>
+                    <br>
+                    <span class="text-xs sm:text-base experience" >I evaluated companies by developing financial models and applying valuation methodologies such as precedent transactions for Venture Capital cases and DCF analysis for Private Equity cases.</span>
+                </div>
+            </div>
+            <!-- Third experience [End] -->
+            <div class="flex h-36">
+                <div class="w-1 h-full  overflow-visible rounded-full experience4_bar invisible ">
+                    <div class="h-1/2 barcolor lowerop"></div>
+                    <div class="h-1/2 flex items-end justify-center overflow-visible	barcolor">
+                        <div class="w-8 h-8 darkforest rounded-full flex-none"></div>
+                    </div>
+                </div>
+                <div class="mt-20 w-fit h-32 ml-20 experience4_text invisible">
+                    <h1 class="text-xl sm:text-2xl font-bold">Virginia Quek Lalita & Partners</h1>
+                    <span class="font-semibold md:text-lg">Legal Intern |</span>
+                    <span class="md:text-lg font-light">Feb 2022 - Apr 2022</span>
+                    <br>
+                    <span class="text-xs sm:text-base experience">I assisted partners in representing clients in court during trial, and developed polished legal documents to support litigation processes and court proceedings.</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 3. Projects Section -->
+    <section class=" darkforest text-amber-50 projects_section overflow-x-none " id="projects">
+        <div class="text-center pt-40">
+            <h1 class="text-3xl sm:text-5xl font-bold">P R O J E C T S</h1>
+            <h1 class="text-lg font-medium mb-4 mt-3 ">c l i c k &nbsp&nbsp t o &nbsp&nbsp e x p l o r e</h1>
+        </div>
+        <div class="w-full h-2/6 sm:h-4/6 flex overflow-x-scroll overflow-y-visible	 mt-20 px-20 sm:px-60 snap-x snap-mandatory text-amber-50 scroll scrollContainer" id="scrollContainer">
+            
+            <div class="h-full flex-none px-4 w-2/6"></div>
+
+            <!-- First card [Start] -->
+            <div class="h-3/6 sm:h-4/6 flex-none px-2 sm:px-4">
+                <a href="./grabmore.html" class="h-full snap-center">
+                    <img src="./assets/grabmorecard.png" class="h-full rounded-lg snap-center" alt="">
+                </a>
+                <div class="w-full flex justify-center ">
+                    <div class="pt-4 text-center sm:text-left">
+                        <div class="flex flex-col sm:flex-row justify-center sm:justify-start items-center">
+                            <span class="text-lg sm:text-2xl font-semibold">GrabMore &nbsp</span>
+                            <span class="text-lg sm:text-2xl font-light hidden sm:inline">| &nbsp UI/UX • Product</span>
+                        </div>
+                        <div class="flex flex-wrap justify-center mt-4 text-sm sm:text-base">
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">2024</div>
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">Figma</div>
+                        </div>
+                        <div class="mt-4 opacity-50 text-xs sm:text-sm">Developed for Internal Product Challenge | <span class="ordinal">3rd</span> Place</div>
+                    </div>
+                </div>
+            </div>
+            <!-- First card [End] -->
+            <!-- Second card [Start] -->
+            <div class="h-3/6 sm:h-4/6 flex-none px-2 pl-5 sm:px-4">
+                <a href="./summerinchina.html" class="h-full snap-center">
+                    <img src="./assets/summerchinacard.png" class="h-full rounded-lg snap-center" alt="">
+                </a>
+                <div class="w-full flex justify-center ">
+                    <div class="pt-4 text-center sm:text-left">
+                        <div class="flex flex-col sm:flex-row justify-center sm:justify-start items-center">
+                            <span class="text-lg sm:text-2xl font-semibold">Summer in China &nbsp</span>
+                            <span class="text-lg sm:text-2xl font-light hidden sm:inline">| &nbsp Author • Developer</span>
+                        </div>
+                        <div class="flex flex-wrap justify-center mt-4 text-sm sm:text-base">
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">2024</div>
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">Notion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second card [End] -->
+            <!-- Third card [Start] -->
+            <div class="h-3/6 sm:h-4/6 flex-none px-2 pl-5 sm:px-4">
+                <a href="./partify.html" class="h-full snap-center">
+                    <img src="./assets/partifycard1.png" class="h-full rounded-lg snap-center" alt="">
+                </a>
+                <div class="w-full flex justify-center ">
+                    <div class="pt-4 text-center sm:text-left">
+                        <div class="flex flex-col sm:flex-row justify-center sm:justify-start items-center">
+                            <span class="text-lg sm:text-2xl font-semibold">Partify &nbsp</span>
+                            <span class="text-lg sm:text-2xl font-light hidden sm:inline">| &nbsp UI/UX • Developer</span>
+                        </div>
+                        <div class="flex flex-wrap justify-center mt-4 text-sm sm:text-base">
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">2023</div>
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">Figma</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Third card [End] -->
+            <!-- Fourth card [Start] -->
+            <div class="h-3/6 sm:h-4/6 flex-none px-2 pl-5 sm:px-4 ">
+                <a href="./mandaisustain.html" class="h-full snap-center">
+                    <img src="./assets/mandaicard.png" class="h-full rounded-lg snap-center" alt="">
+                </a>
+                <div class="w-full flex justify-center -m-1.5 sm:m-0">
+                    <div class="pt-4 text-center">
+                        <div class="flex flex-col sm:flex-row items-center justify-center">
+                            <span class="text-lg sm:text-2xl font-semibold">Mandai Sustain &nbsp</span>
+                            <span class="text-lg sm:text-2xl font-light sm:ml-2 hidden sm:inline">| &nbsp Developer</span>
+                        </div>
+                        <div class="flex flex-wrap justify-center mt-4 text-sm sm:text-base">
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">2023</div>
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2" id="toolong">Microsoft PowerApps • PowerAutomate • PowerBI</div>
+                        </div>
+                        <div class="mt-4 opacity-50 text-xs sm:text-sm">Developed for Mandai WildCode Hackathon | <span class="ordinal">2nd </span>Place</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth card [End] -->
+            <div class="h-3/6 sm:h-4/6 flex-none px-2 sm:px-4">
+                <a href="./gloob.html">
+                    <img src="./assets/gloobcard.png" class="h-full rounded-lg snap-center" alt="">
+                </a>
+                <div class="w-full flex justify-center ">
+                    <div class="pt-4 text-center">
+                        <div class="flex flex-col sm:flex-row items-center justify-center">
+                            <span class="text-lg sm:text-2xl font-semibold">Gloob ! &nbsp</span>
+                            <span class="text-lg sm:text-2xl font-light sm:ml-2 hidden sm:inline"> | &nbsp Front-End • UI/UX</span>
+                        </div>
+                        <div class="flex flex-wrap justify-center mt-4 text-sm sm:text-base">
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">2023</div>
+                            <div class="rounded-full border border-amber-50 p-1 px-4 sm:mx-2">Vue.js • Tailwind CSS • Figma</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="h-40 sm:h-full flex-none px-4 w-2/6"></div>
+
+        </div>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const scrollContainer = document.getElementById('scrollContainer');
+            const firstImage = scrollContainer.querySelector('div:nth-child(2)'); // Assuming the second child is the first image card
+            if (firstImage) {
+            const scrollAmount = firstImage.offsetLeft - (window.innerWidth / 2) + (firstImage.offsetWidth / 2);
+            scrollContainer.scrollLeft = scrollAmount;
+            }
+        });
+        </script>
+
+    </section>
+
+    <div class="darkforest h-32 sm:h-96"></div>
+
+    <!-- 4. Contacts Section -->
+    <section class="text-amber-50  contacts_section darkforest " id="contacts">
+        <!-- rounded-full border-4 border-amber-50  -->
+        <div class="text-center mx-6 sm:mx-20  h-4/5 grid content-center rounded-lg border-4 border-amber-50 invisible fadein2">
+            <h1 class="text-3xl sm:text-5xl font-bold">L E T ' S &nbsp&nbsp C H A T !</h1>
+            <div class="flex sm:flex-col w-full lg:flex-row mt-20">
+                <div class="grid flex-grow h-32 card  w-1/2 place-items-center">
+                    <a href="https://www.linkedin.com/in/jonte-lee/" target="_blank">
+                        <img src="./assets/linkedin.png" alt="">
+                        <div class="font-semibold text-lg">Jonte Lee</div>
+                    </a>
+                </div> 
+                <div class="divider lg:divider-horizontal invisible sm:visible">or</div> 
+                <div class="grid flex-grow h-32 card w-1/2 place-items-center">
+                    <div class="text-left">
+                        <div class="font-bold text-base sm:text-4xl mb-2">Contact Details</div>
+                        <div class="text-xs sm:text-base mb-2">jonteul@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="px-8 grid content-center text-amber-50 h-20 darkforest">
+        <div class="flex justify-between">
+            <div class="text-xs sm:text-lg font-semibold">Designed & developed by Jonte Lee</div>
+            <div class="sm:flex invisible sm:visible">
+                <div class="text-xs sm:text-base rounded-full border border-amber-50 p-1 px-4 sm:mx-2 h-fit">2023</div>
+                <div class="text-xs sm:text-base rounded-full border border-amber-50 p-1 px-4 sm:mx-2 h-fit">Tailwind CSS • JavaScript • DaisyUI • Animate CSS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+
+    <script src="./jontelee.js"></script>
+</body>
+</html>
